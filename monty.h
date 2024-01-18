@@ -41,6 +41,8 @@ extern stack_t *head;
 
 void push_to_stack(stack_t **stack);
 void pall_stack(stack_t **stack);
+stack_t *add_dnodeint(stack_t **head, const int n);
+stack_t *add_dnodeint_end(stack_t **head, const int n);
 void _errors(int code_error, ...);
 
 
